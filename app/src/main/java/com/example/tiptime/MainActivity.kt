@@ -150,7 +150,6 @@ private fun calculateTip(amount: Double, tipPercent: Double = 15.0, roundUp: Boo
     }
     return NumberFormat.getCurrencyInstance().format(tip)
 }
-
 @Preview(showBackground = true)
 @Composable
 fun TipTimeLayoutPreview() {
